@@ -1,0 +1,17 @@
+.photo1 {
+  width: 35%;
+  height: 35%;
+  margin-left: 13%;
+  cursor: none;
+  transition: all 1s;
+}
+
+.photo1:hover {
+  position: relative;
+  transform: scale3d(1.05, 1.05, 1.05);
+  filter: drop-shadow(0 0 0.75rem rgba(131, 0, 207, 0.644));
+}
+
+.photo1 {
+  animation: expand 0.8s ease forwards;
+}

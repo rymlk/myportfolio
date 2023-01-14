@@ -1,0 +1,79 @@
+.allsocials {
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bloc5 {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.linkedinlogo {
+  width: 50%;
+  margin: 4.5em;
+}
+
+.bloc6 {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.whatsapplogo {
+  width: 50%;
+  margin: 4.5em;
+}
+
+.bloc7 {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.maillogo {
+  width: 50%;
+  margin: 4.5em;
+}
+
+.bloc7:hover {
+  background-color: black;
+  position: relative;
+  transform: scale3d(1.05, 1.05, 1.05);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.644));
+}
+
+.bloc7 {
+  transition: all 1s;
+  animation: expand 0.8s ease forwards;
+}
+
+.bloc6:hover {
+  background-color: #03c100;
+  position: relative;
+  transform: scale3d(1.05, 1.05, 1.05);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.644));
+}
+
+.bloc5:hover {
+  background-color: #1982ba;
+  position: relative;
+  transform: scale3d(1.05, 1.05, 1.05);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.644));
+}

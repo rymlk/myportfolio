@@ -1,0 +1,77 @@
+.bloc5 {
+  display: flex;
+  z-index: 100000;
+  margin-bottom: -2.4%;
+  width: 100vh;
+  height: 5vh;
+
+  /* white */
+
+  background: #8c8c8c;
+  /* SmShadow */
+
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.02),
+    1px 2px 16px rgba(42, 64, 84, 0.06);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.bloc4 {
+  display: flex;
+  width: 100vh;
+  height: 50vh;
+
+  /* white */
+
+  background: #27242f;
+  /* SmShadow */
+
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.02),
+    1px 2px 16px rgba(42, 64, 84, 0.06);
+  border-radius: 10px;
+}
+
+.texte10 {
+  margin-top: 7%;
+  margin-left: 2%;
+  font-family: Source Code Pro;
+  color: #00ff40;
+}
+
+.texte11 {
+  margin-top: 7%;
+  margin-left: 2%;
+  font-family: Source Code Pro;
+  color: #fafafa;
+}
+
+.container {
+  width: 50%;
+  margin-top: 19%;
+  margin-left: 25%;
+}
+
+.infotexte {
+  color: yellow;
+}
+
+.infotexte:hover {
+  cursor: none;
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+
+.emoji {
+  cursor: none;
+  color: red;
+  animation: rotation 20s infinite linear;
+}
+
+.emoji:hover {
+  filter: brightness(1.2);
+}
+
+.projet1pc {
+  z-index: -10000000000;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 35%;
+}

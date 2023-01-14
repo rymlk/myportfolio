@@ -1,0 +1,29 @@
+.projet1tel:hover {
+  position: relative;
+  transform: scale3d(1.1, 1.1, 1.1);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.644));
+}
+
+.projet1tel {
+  cursor: none;
+  z-index: 1000000;
+  width: 8%;
+  margin-top: -11.5%;
+  margin-left: 11.2%;
+  transition: all 1s;
+}
+
+.projet2tel:hover {
+  position: relative;
+  transform: scale3d(1.1, 1.1, 1.1);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.644));
+}
+
+.projet2tel {
+  cursor: none;
+  z-index: 1000000;
+  width: 8%;
+  margin-top: -31.8%;
+  margin-left: 56.2%;
+  transition: all 1s;
+}

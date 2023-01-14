@@ -1,0 +1,104 @@
+.forme1 {
+  cursor: none;
+  position: absolute;
+  margin-top: 43%;
+  margin-left: 20%;
+  width: 2%;
+  animation: rotation 20s infinite linear;
+  transition: all 1s;
+}
+
+.forme1:hover {
+  filter: brightness(1.5);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.forme2 {
+  cursor: none;
+  position: absolute;
+  width: 15%;
+  margin-top: 22%;
+  margin-left: 55%;
+  animation: rotation 20s infinite linear;
+  transition: all 1s;
+}
+
+.forme2:hover {
+  filter: brightness(1.5);
+}
+
+.forme3:hover {
+  filter: brightness(1.5);
+}
+
+.forme4:hover {
+  filter: brightness(1.5);
+}
+
+.forme5:hover {
+  filter: brightness(1.5);
+}
+
+.forme6:hover {
+  filter: brightness(1.5);
+}
+
+.forme7:hover {
+  filter: brightness(1.5);
+}
+
+.forme3 {
+  cursor: none;
+  position: absolute;
+  width: 4%;
+  margin-top: 68%;
+  margin-left: 80%;
+  animation: rotation 20s infinite linear;
+  transition: all 1s;
+}
+
+.forme4 {
+  cursor: none;
+  display: none;
+  position: absolute;
+  width: 10%;
+  transition: all 1s;
+}
+
+.forme5 {
+  cursor: none;
+  margin-top: 60%;
+  margin-left: 7%;
+  position: absolute;
+  width: 10%;
+  animation: rotation 20s infinite linear;
+  transition: all 1s;
+}
+
+.forme6 {
+  cursor: none;
+  position: absolute;
+  width: 10%;
+  margin-top: 46%;
+  margin-left: 83%;
+  animation: rotation 20s infinite linear;
+  transition: all 1s;
+}
+
+.forme7 {
+  cursor: none;
+  position: absolute;
+  margin-top: 86%;
+  width: 4%;
+  animation: rotation 20s infinite linear;
+  transition: all 1s;
+  margin-left: 19%;
+}
