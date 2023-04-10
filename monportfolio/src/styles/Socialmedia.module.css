@@ -197,9 +197,61 @@
   }
 }
 
+/* 390 pixels */
+
+@media only screen and (max-width: 390px) {
+  .allsocials {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-left: 22.5%;
+  }
+
+  .bloc5 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc6 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc7 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .WhatsappDiv {
+    display: flex;
+  }
+
+  .MailDiv {
+    display: flex;
+  }
+
+  .LinkedinDiv {
+    display: flex;
+  }
+}
+
 /* 375 pixels */
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 375px) {
   .allsocials {
     display: flex;
     align-items: center;

@@ -17,6 +17,10 @@
   display: flex;
   transition: 0.5s;
 }
+.cards {
+  display: flex;
+  transition: 0.5s;
+}
 
 .titre1 {
   text-align: center;
@@ -153,6 +157,66 @@
 
   .cardsspecial {
     margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+  }
+}
+
+/* 390 pixels*/
+
+@media only screen and (max-width: 390px) {
+  .imageprofil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 95%;
+    margin-top: 15%;
+  }
+
+  .titre1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Mulish;
+    font-size: 30px;
+    transform: scale(1.05);
+    margin-left: 95%;
+    width: 100%;
+    padding: 15%;
+  }
+  .banners {
+    display: flex;
+    transform: scale(0.9);
+    margin-left: 82.5%;
+  }
+  .modalinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin: 0 auto;
+    width: 67vh;
+    transform: scale(1);
+    margin-left: 15%;
+  }
+
+  .cards {
+    transform: scale(1);
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  .cardsspecial {
+    margin-left: 90%;
     display: flex;
     justify-content: center;
     justify-items: center;
