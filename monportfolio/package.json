@@ -1,0 +1,35 @@
+{
+  "name": "monportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.16",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "aos": "^2.3.4",
+    "atropos": "^1.0.2",
+    "autoprefixer": "10.4.14",
+    "babel": "^6.23.0",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "next": "^13.3.0",
+    "postcss": "8.4.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@types/aos": "^3.0.4"
+  }
+}

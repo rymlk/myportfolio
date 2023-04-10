@@ -1,0 +1,302 @@
+.allsocials {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  gap: 10%;
+  margin-left: -20%;
+  padding: 10%;
+  transition: 0.4s;
+}
+
+.bloc5 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+}
+
+.bloc6 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+}
+
+.bloc7 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+}
+
+.linkedinlogo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transform: scale(0.8);
+}
+
+.maillogo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transform: scale(0.8);
+}
+
+.whatsapplogo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transform: scale(0.8);
+}
+
+.WhatsappDiv {
+  display: flex;
+}
+
+.MailDiv {
+  display: flex;
+}
+
+.LinkedinDiv {
+  display: flex;
+}
+
+.bloc6:hover {
+  background-color: #03c100;
+  position: relative;
+  transform: scale3d(1.05, 1.05, 1.05);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.644));
+}
+
+.bloc5:hover {
+  background-color: #1982ba;
+  position: relative;
+  transform: scale3d(1.05, 1.05, 1.05);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.644));
+}
+
+.bloc7:hover {
+  background-color: black;
+  position: relative;
+  transform: scale3d(1.05, 1.05, 1.05);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.644));
+}
+
+/* 1024 pixels */
+
+@media only screen and (max-width: 1024px) {
+  .allsocials {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-left: -20%;
+  }
+
+  .bloc5 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc6 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc7 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .WhatsappDiv {
+    display: flex;
+  }
+
+  .MailDiv {
+    display: flex;
+  }
+
+  .LinkedinDiv {
+    display: flex;
+  }
+}
+
+/* 425 pixels */
+
+@media only screen and (max-width: 425px) {
+  .allsocials {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-left: 7.5%;
+  }
+
+  .bloc5 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc6 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc7 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .WhatsappDiv {
+    display: flex;
+  }
+
+  .MailDiv {
+    display: flex;
+  }
+
+  .LinkedinDiv {
+    display: flex;
+  }
+}
+
+/* 375 pixels */
+
+@media only screen and (max-width: 425px) {
+  .allsocials {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-left: 13%;
+  }
+
+  .bloc5 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc6 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc7 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .WhatsappDiv {
+    display: flex;
+  }
+
+  .MailDiv {
+    display: flex;
+  }
+
+  .LinkedinDiv {
+    display: flex;
+  }
+}
+
+/* 320 pixels */
+
+@media only screen and (max-width: 320px) {
+  .allsocials {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-left: 20%;
+  }
+
+  .bloc5 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc6 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .bloc7 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  }
+
+  .WhatsappDiv {
+    display: flex;
+  }
+
+  .MailDiv {
+    display: flex;
+  }
+
+  .LinkedinDiv {
+    display: flex;
+  }
+}

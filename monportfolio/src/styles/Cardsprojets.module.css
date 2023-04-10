@@ -1,0 +1,55 @@
+.imageprojet1 {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.imageprojet2 {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  cursor: pointer;
+  position: relative;
+}
+
+/* 425 pixels */
+
+@media only screen and (max-width: 425px) {
+  .cardContainer1 {
+    width: 150%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* 375 pixels */
+
+@media only screen and (max-width: 375px) {
+  .cardContainer1 {
+    width: 175%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* 320 pixels */
+
+@media only screen and (max-width: 320px) {
+  .cardContainer1 {
+    width: 200%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
