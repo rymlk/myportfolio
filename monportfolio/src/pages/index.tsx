@@ -56,20 +56,20 @@ export default function Home() {
           <div className={styles.cardsspecial}>
             <img data-aos="flip-up" src="front-end-card.png" alt="" />
           </div>
-          <div className={styles.cards}>
-            <img data-aos="fade-up-right" src="cardxl-full1.png" alt="" />
+          <div className={styles.cards1}>
+            <img data-aos="zoom-in-down" src="cardxl-full1.png" alt="" />
           </div>
           <div className={styles.cardsspecial}>
             <img data-aos="flip-up" src="back-end-card.png" alt="" />
           </div>
-          <div className={styles.cards}>
-            <img data-aos="fade-up-left" src="cardxl-full2.png" alt="" />
+          <div className={styles.cards2}>
+            <img data-aos="zoom-in-down" src="cardxl-full2.png" alt="" />
           </div>
           <div className={styles.cardsspecial}>
             <img data-aos="flip-up" src="design-card.png" alt="" />
           </div>
-          <div className={styles.cards}>
-            <img data-aos="fade-up-right" src="cardxl-full3.png" alt="" />
+          <div className={styles.cards3}>
+            <img data-aos="zoom-in-down" src="cardxl-full3.png" alt="" />
           </div>
           <div className={styles.banners}>
             <img data-aos="zoom-in" src="banner-3.png" alt="" />
