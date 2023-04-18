@@ -183,7 +183,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 50%;
+    margin-left: 90%;
     margin-top: 15%;
   }
 
@@ -192,16 +192,16 @@
     display: flex;
     justify-content: center;
     font-family: Mulish;
-    font-size: 20px;
+    font-size: 30px;
     transform: scale(1.05);
-    margin-left: 50%;
+    margin-left: 90%;
     width: 100%;
     padding: 15%;
   }
   .banners {
     display: flex;
     transform: scale(0.9);
-    margin-left: 50%;
+    margin-left: 85%;
   }
   .modalinfo {
     display: flex;
@@ -210,28 +210,41 @@
     align-content: center;
     align-self: center;
     margin: 0 auto;
-    width: 70vh;
-    margin-left: 5%;
-    transform: scale(1);
+    width: 76vh;
+    margin-left: 15.5%;
   }
 
-  .cards {
-    transform: scale(1);
+  .cards1 {
     display: flex;
-    justify-content: center;
     margin: 0 auto;
-    justify-items: center;
+    margin-left: 12.5%;
+    justify-content: center;
     align-items: center;
-    align-self: center;
+  }
+
+  .cards2 {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 12.5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards3 {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 12.5%;
+    justify-content: center;
+    align-items: center;
   }
 
   .cardsspecial {
-    margin-left: 50%;
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-self: center;
+    margin-left: 90%;
   }
 }
 
