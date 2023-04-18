@@ -32,6 +32,18 @@
   }
 }
 
+/* 414 pixels */
+
+@media only screen and (max-width: 414px) {
+  .cardContainer1 {
+    width: 190%;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /* 390 pixels */
 
 @media only screen and (max-width: 390px) {
